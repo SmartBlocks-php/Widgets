@@ -1,16 +1,19 @@
 
 .wd_widget {
+  z-index: 1000;
   position: absolute;
   right: -250px;
   width: 250px;
   bottom: 20px;
-  background: rgba(211, 211, 211, 0.50);
+  background: rgb(242, 242, 242);
   padding: 20px;
   transition: right 0.2s;
   z-index: 2000;
   -webkit-box-sizing: content-box !important;
   -moz-box-sizing: content-box !important;
   box-sizing: content-box !important;
+  border: 1px gray solid;
+  border-right: none;
 
   &:hover {
     right: 0px;
